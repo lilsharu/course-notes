@@ -2,5 +2,6 @@
   "obsidian-admonition",
   "better-word-count",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-git"
 ]
