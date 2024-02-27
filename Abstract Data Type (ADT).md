@@ -1,7 +1,7 @@
 ---
 tags:
   - eecs-281
-lecture: "Lecture 2: Data Structures and Abstract Data Types"
+lecture: "Lecture 02: Data Structures and Abstract Data Types"
 ---
 An abstract data type (ADT) combines data with valid operations and their behaviors on stored data.
 

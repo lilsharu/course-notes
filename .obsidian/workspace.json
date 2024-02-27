@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Complexity Analysis.md",
+                "file": "Big-Omega.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Complexity Analysis.md",
+                "file": "Big-Omega.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Complexity Analysis.md",
+                "file": "Big-Omega.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Complexity Analysis.md"
+                "file": "Big-Omega.md"
               }
             }
           },
@@ -177,20 +177,22 @@
   },
   "active": "5b25cfe34ffebb6a",
   "lastOpenFiles": [
-    "EECS 281 Midterm.md",
+    "Big-O Notation.md",
+    "Big-Omega.md",
     "Complexity Analysis.md",
-    "Priority Queue.md",
-    "Deque.md",
-    "Stack.md",
-    "Queue.md",
     "Abstract Data Type (ADT).md",
-    "2024-02-27.md",
-    "Untitled.canvas",
-    "classes/EECS 376.md",
+    "classes/EECS 203.md",
+    "classes/EECS 280.md",
     "classes/EECS 370.md",
     "classes/EECS 281.md",
-    "classes/EECS 280.md",
-    "classes/EECS 203.md",
+    "classes/EECS 376.md",
+    "Deque.md",
+    "EECS 281 Midterm.md",
+    "Priority Queue.md",
+    "Stack.md",
+    "Queue.md",
+    "2024-02-27.md",
+    "Untitled.canvas",
     "classes",
     "assets",
     "templates/wiki.md",
@@ -204,8 +206,6 @@
     "Operations.md",
     "Mechanical.md",
     "Electrical.md",
-    "Communications.md",
-    "private/private-note.md",
     "subsystems-and-divisions/vehicle-dynamics",
     "subsystems-and-divisions/communications",
     "subsystems-and-divisions/operations",

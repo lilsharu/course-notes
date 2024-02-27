@@ -2,7 +2,7 @@
 tags:
   - eecs-281
   - data-structure
-lecture: "Lecture 2: Data Structures and Abstract Data Types"
+lecture: "Lecture 02: Data Structures and Abstract Data Types"
 ---
 A Deque is a "Double-Ended Queue," but is essentially a Data Structure that supports both [[Queue]]-like and [[Stack]]-like behavior.
 

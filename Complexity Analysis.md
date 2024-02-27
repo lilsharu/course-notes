@@ -13,4 +13,4 @@ The major metrics that are used are:
 Notation and Terminology:
 - $n$: Input Size
 - $f(n)$: Maximum number of steps taken by an algorithm when input has size $n$
-- $O(f(n))$: Complexity class of $f(n)$.
+- $O(f(n))$: Complexity class of $f(n)$. ([[Big-O Notation]])

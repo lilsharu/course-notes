@@ -2,7 +2,7 @@
 tags:
   - "#eecs-281"
   - "#data-structure"
-lecture: "Lecture 2: Data Structures and Abstract Data Types"
+lecture: "Lecture 02: Data Structures and Abstract Data Types"
 ---
 Stacks support insertion / removal in LIFO (last in, first out) order.
 

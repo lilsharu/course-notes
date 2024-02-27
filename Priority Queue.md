@@ -2,7 +2,7 @@
 tags:
   - eecs-281
   - data-structure
-lecture: "Lecture 2: Data Structures and Abstract Data Types"
+lecture: "Lecture 02: Data Structures and Abstract Data Types"
 ---
 In a Priority Queue (colloquially referred to as a `pq`), each "datum" is paired with a priority value. For example, it could be the value of the data point itself in a priority queue of numbers. A PQ supports insertion of data, and inspection (which involves "looking" at the datum with highest priority).
 
