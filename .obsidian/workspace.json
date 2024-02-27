@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Priority Queue.md",
+                "file": "Complexity Analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Priority Queue.md",
+                "file": "Complexity Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Priority Queue.md",
+                "file": "Complexity Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Priority Queue.md"
+                "file": "Complexity Analysis.md"
               }
             }
           },
@@ -178,10 +178,11 @@
   "active": "5b25cfe34ffebb6a",
   "lastOpenFiles": [
     "EECS 281 Midterm.md",
+    "Complexity Analysis.md",
+    "Priority Queue.md",
     "Deque.md",
     "Stack.md",
     "Queue.md",
-    "Priority Queue.md",
     "Abstract Data Type (ADT).md",
     "2024-02-27.md",
     "Untitled.canvas",
@@ -205,7 +206,6 @@
     "Electrical.md",
     "Communications.md",
     "private/private-note.md",
-    "Home.md",
     "subsystems-and-divisions/vehicle-dynamics",
     "subsystems-and-divisions/communications",
     "subsystems-and-divisions/operations",
