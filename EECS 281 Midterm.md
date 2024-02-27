@@ -6,7 +6,7 @@ tags:
 Relevant Class: [[EECS 281]]
 
 Topics Covered:
-- [[Stack]], [[Queue]], [[Priority Queue]] [[Abstract Data Type (ADT)|ADTs]]
+- [[Stack]], [[Queue]], [[Deque]], [[Priority Queue]] [[Abstract Data Type (ADT)|ADTs]]
 - [[Complexity Analysis]] ([[Substitution Method (Time Complexity)]], [[The Master Theorem]])
 - [[Recursion]] (and [[The Master Theorem]])
 - Container Data Structures ([[Array]], [[Vector]], [[Linked List]])
