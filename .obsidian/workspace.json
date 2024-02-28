@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deque.md",
+                "file": "EECS 281 Midterm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,16 +21,11 @@
             }
           },
           {
-            "id": "5b25cfe34ffebb6a",
+            "id": "b05db91c6778b9b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Big-Omega.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -100,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Big-Omega.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Big-Omega.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Big-Omega.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,19 +166,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b25cfe34ffebb6a",
+  "active": "b05db91c6778b9b4",
   "lastOpenFiles": [
+    "cheatsheets/EECS 281 Midterm Cheat Sheet.md",
+    "Linked List.md",
+    "The Standard Template Library.md",
+    "cheatsheets",
+    "EECS 281 Midterm.md",
+    "Deque.md",
+    "Complexity Analysis.md",
     "Big-O Notation.md",
     "Big-Omega.md",
-    "Complexity Analysis.md",
     "Abstract Data Type (ADT).md",
     "classes/EECS 203.md",
     "classes/EECS 280.md",
     "classes/EECS 370.md",
     "classes/EECS 281.md",
     "classes/EECS 376.md",
-    "Deque.md",
-    "EECS 281 Midterm.md",
     "Priority Queue.md",
     "Stack.md",
     "Queue.md",
@@ -203,9 +198,6 @@
     "Vehicle Dynamics.md",
     "Strategy.md",
     "CMake.md",
-    "Operations.md",
-    "Mechanical.md",
-    "Electrical.md",
     "subsystems-and-divisions/vehicle-dynamics",
     "subsystems-and-divisions/communications",
     "subsystems-and-divisions/operations",
@@ -213,7 +205,6 @@
     "subsystems-and-divisions/aerodynamics",
     "subsystems-and-divisions",
     "subsystems-and-divisions/strategy",
-    "subsystems-and-divisions/electrical",
     "notes/images/github-actions.png",
     "notes/images/fork.png",
     "notes/images/obsidian-settings.png",
