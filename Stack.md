@@ -4,6 +4,8 @@ tags:
   - "#data-structure"
 lecture: "Lecture 02: Data Structures and Abstract Data Types"
 ---
+Relevant Classes: [[EECS 281]]
+
 Stacks support insertion / removal in LIFO (last in, first out) order.
 
 ## [[Abstract Data Type (ADT)]]

@@ -4,6 +4,8 @@ tags:
   - data-structure
 lecture: "Lecture 02: Data Structures and Abstract Data Types"
 ---
+Relevant Classes: [[EECS 281]]
+
 In a Priority Queue (colloquially referred to as a `pq`), each "datum" is paired with a priority value. For example, it could be the value of the data point itself in a priority queue of numbers. A PQ supports insertion of data, and inspection (which involves "looking" at the datum with highest priority).
 
 Note: Priority Queues are [[Customizable Containers]]. You can change the "comparator" used to determine the priority (min-pq, max-pq, custom-pq).

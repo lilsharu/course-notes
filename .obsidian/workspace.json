@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EECS 281 Midterm.md",
+                "file": "LC2K.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -24,12 +24,68 @@
             "id": "b05db91c6778b9b4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Two's Complement Numbers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88fc89da8b47571d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Number Bases.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b52b38fe91bede9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dennard Scaling.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d36b0feaad99ff5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Moore's Law.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc194fd3b2b6e3cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cheatsheets/EECS 370 Midterm Cheatsheet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EECS 281 Midterm.md",
+                "file": "LC2K.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EECS 281 Midterm.md",
+                "file": "LC2K.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EECS 281 Midterm.md"
+                "file": "LC2K.md"
               }
             }
           },
@@ -170,45 +226,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b05db91c6778b9b4",
+  "active": "aaa870fc285ebb64",
   "lastOpenFiles": [
+    "cheatsheets/EECS 370 Midterm Cheatsheet.md",
+    "exams/EECS 370 Midterm.md",
+    "LC2K.md",
+    "Instruction Set Architecture (ISA).md",
+    "Registers.md",
+    "Two's Complement Numbers.md",
+    "Dennard Scaling.md",
+    "classes/EECS 370.md",
+    "Moore's Law.md",
+    "Number Bases.md",
+    "LEGv8.md",
+    "exams/EECS 281 Midterm.md",
+    "Finite State Machines.md",
+    "exams",
+    "Stack.md",
+    "Queue.md",
+    "Priority Queue.md",
+    "Deque.md",
+    "Complexity Analysis.md",
+    "Big-Omega.md",
+    "Big-O Notation.md",
+    "Abstract Data Type (ADT).md",
     "cheatsheets/EECS 281 Midterm Cheat Sheet.md",
     "Linked List.md",
     "The Standard Template Library.md",
     "cheatsheets",
-    "EECS 281 Midterm.md",
-    "Deque.md",
-    "Complexity Analysis.md",
-    "Big-O Notation.md",
-    "Big-Omega.md",
-    "Abstract Data Type (ADT).md",
     "classes/EECS 203.md",
     "classes/EECS 280.md",
-    "classes/EECS 370.md",
-    "classes/EECS 281.md",
-    "classes/EECS 376.md",
-    "Priority Queue.md",
-    "Stack.md",
-    "Queue.md",
-    "2024-02-27.md",
     "Untitled.canvas",
     "classes",
     "assets",
-    "templates/wiki.md",
-    "callouts.md",
-    "templates/system-heading.md",
-    "templates/post.md",
-    "templates/blog.md",
-    "Vehicle Dynamics.md",
-    "Strategy.md",
-    "CMake.md",
     "subsystems-and-divisions/vehicle-dynamics",
     "subsystems-and-divisions/communications",
     "subsystems-and-divisions/operations",
     "subsystems-and-divisions/business",
     "subsystems-and-divisions/aerodynamics",
     "subsystems-and-divisions",
-    "subsystems-and-divisions/strategy",
     "notes/images/github-actions.png",
     "notes/images/fork.png",
     "notes/images/obsidian-settings.png",

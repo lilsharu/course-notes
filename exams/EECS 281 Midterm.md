@@ -5,7 +5,8 @@ tags:
 ---
 Relevant Class: [[EECS 281]]
 
-Topics Covered:
+## Topics Covered
+
 - [[Stack]], [[Queue]], [[Deque]], [[Priority Queue]] [[Abstract Data Type (ADT)|ADTs]]
 - [[Complexity Analysis]] ([[Substitution Method (Time Complexity)]], [[Big-O Notation]])
 - [[Recursion]] (and [[The Master Theorem]])

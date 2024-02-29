@@ -3,6 +3,8 @@ tags:
   - eecs-281
 lecture: "Lecture 03: Complexity Analysis, Math Foundations"
 ---
+Relevant Classes: [[EECS 281]]
+
 At it's core, it attempts to answer the question: Given an algorithm and input size $n$, how many steps are needed?
 
 The major metrics that are used are:
