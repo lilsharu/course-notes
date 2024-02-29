@@ -206,3 +206,25 @@ elseif:
 	B start ; start from start
 end:
 ```
+
+## Function Calls
+Sometimes, function calls can be very far away: more than the $2^{19}$ instructions that a typical `CBZ` or `CBNZ` branching instruction might take. This is where unconditional branching comes into play, to let us unconditionally go to far locations.
+
+Since unconditional branches are, well, *unconditional*, no other registers need to be specified, so they allow us to specify an address up to *26* bits away, which is more than 64 million instructions. This should be plenty.
+
+There are three types of unconditional branches in the LEGv8 ISA:
+
+- Branch: `B`
+	- Syntax: `B #OFFSET` -> go to `PC + 4 * OFFSET` (byte addressable)
+- Branch to Register: `BR`
+	- Syntax: `BR X30` (or any other register) -> go to the address stored in that register
+- Branch with link: `BL`
+	- This is commonly used in function calls
+	- `BL #OFFSET` -> Store PC + 4 into `X30` and go to `PC + 4 * OFFSET`
+
+### The Call Stack
+In many situations, functions might be "passed in" data that is more than can fit in however many registers can be used to get data passed in. There needs to be a temporary place to store these values when they get passed to the function: the solution is the calls stack.
+
+Think of the call stack as a stack of scratch paper: you can add more on top and use it and scribble things on top of it, but it is really all just temporary. When you're done with a piece of paper, you can throw it out, shred it, and eliminate any trace that it was actually there.
+
+Every time we call a function, a **stack frame** is allocated for that function, and then discarded when that function is complete.
