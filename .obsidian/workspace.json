@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Number Bases.md",
+                "file": "LEGv8.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cheatsheets/EECS 370 Midterm Cheatsheet.md",
+                "file": "exams/EECS 370 Midterm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,8 +89,13 @@
             "id": "82821faba989eb5c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Object Files.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -160,6 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Object Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Object Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +204,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Object Files.md"
+              }
             }
           },
           {
@@ -233,18 +242,19 @@
   },
   "active": "82821faba989eb5c",
   "lastOpenFiles": [
+    "Dennard Scaling.md",
+    "Moore's Law.md",
     "exams/EECS 370 Midterm.md",
-    "Caller Save vs Callee Save.md",
     "LEGv8.md",
-    "LC2K.md",
+    "Number Bases.md",
+    "Two's Complement Numbers.md",
+    "Object Files.md",
     "cheatsheets/EECS 370 Midterm Cheatsheet.md",
+    "Caller Save vs Callee Save.md",
+    "LC2K.md",
     "Instruction Set Architecture (ISA).md",
     "Registers.md",
-    "Two's Complement Numbers.md",
-    "Dennard Scaling.md",
     "classes/EECS 370.md",
-    "Moore's Law.md",
-    "Number Bases.md",
     "exams/EECS 281 Midterm.md",
     "Finite State Machines.md",
     "exams",
@@ -260,7 +270,6 @@
     "Linked List.md",
     "The Standard Template Library.md",
     "cheatsheets",
-    "classes/EECS 203.md",
     "Untitled.canvas",
     "classes",
     "assets",
