@@ -7,6 +7,6 @@ tags:
 - [[LEGv8|Common LEGv8 Operations]]
 - [[LC2K|LC2K Opcodes]]
 	- LC2K Instruction Binary Shape Chart
-- [[Logic Gates]]
+- [[Combinational Logic#Logic Gates|Logic Gates]]
 - Powers of Two
 - [[Floating Point Numbers]]

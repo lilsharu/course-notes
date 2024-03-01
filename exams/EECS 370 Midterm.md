@@ -9,8 +9,8 @@ Relevant Class: [[EECS 370]]
 
 I'm going to be very honest, I have no idea what's actually going to be on this exam (specifically, how much of data hazards / control hazards and beyond are going to be on the exam). But here's my best guess:
 - [[Trends in Computing]]
-	- [[Moore's Law]]
-	- [[Dennard Scaling]]
+	- [[Trends in Computing#Moore's Law|Moore's Law]]
+	- [[Trends in Computing#Dennard Scaling|Dennard Scaling]]
 - [[Assembly]]:
 	- [[Instruction Set Architecture (ISA)]]
 	- [[LC2K]]
@@ -30,19 +30,19 @@ I'm going to be very honest, I have no idea what's actually going to be on this 
 - [[Object Files]]
 	- [[Object Files#Symbol Table|Symbol Table]]
 	- [[Object Files#Relocation Table|Relocation Table]]
-- Combinational Logic
-	- [[Logic Gates]]
-	- [[Muxes]]
-	- [[Decoders]]
-	- [[Arithmetic-Logic Unit (ALU)]]
-	- [[Propagation Delay]]
-- Sequential Logic
-	- [[SR Latch]]
-	- [[D Latch]]
-	- [[D Flip-Flop]]
+- [[Combinational Logic]]
+	- [[Combinational Logic#Logic Gates|Logic Gates]]
+	- [[Combinational Logic#Muxes|Muxes]]
+	- [[Combinational Logic#Decoders|Decoders]]
+	- [[Combinational Logic#Arithmetic-Logic Units (ALUs)|ALUs]]
+	- [[Combinational Logic#Propagation Delay|Propagation Delay]]
+- [[Sequential Logic]]
+	- [[Sequential Logic#SR Latch|SR Latch]]
+	- [[Sequential Logic#D Latch|D Latch]]
+	- [[Sequential Logic#D Flip-Flop|D Flip-Flop]]
 - [[Finite State Machine (FSM)]]
 	- [[Read Only Memory (ROM)]]
-	- [[Moore Machines]] vs [[Mealy Machines]]
+	- [[Finite State Machine (FSM)#Moore Machines|Moore Machines]] vs [[Finite State Machine (FSM)#Mealy Machines|Mealy Machines]]
 - Single-Cycle Processor
 	- [[LC2K Single-Cycle Datapath]]
 - Multi-Cycle Processor

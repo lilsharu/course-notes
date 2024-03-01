@@ -7,6 +7,7 @@ Relevant Classes: [[EECS 370]]
 Instructions are 32 bits in size, registers are 32 bits. There are 8 registers, where register 0 is always 0. It supports $2^{16} = 65536$ words of memory (so there are only that many possible instructions and total pieces of memory).
 
 ## LC2K [[Instruction Set Architecture (ISA)|ISA]]
+
 (Copied and Pasted from the P1 Spec)
 
 | Assembly language name for instruction | Instruction Opcode in binary | Action                                                                                                                                                                                                                                                                                                                        |
@@ -35,4 +36,5 @@ Instructions are 32 bits in size, registers are 32 bits. There are 8 registers, 
 | O-type instructions (`halt`, `noop`)    | bits 24-22: `opcode`  <br>bits 21-0: `unused` (should all be 0)                                                                                                        |
 
 ## Labels
+
 Labels make assembly code easier to read and write. They let us assign labels to instructions / data (memory locations) and then use them instead of absolute memory addresses (in `beq` instructions, `lw`/`sw` instructions).

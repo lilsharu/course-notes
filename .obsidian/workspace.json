@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LEGv8.md",
+                "file": "exams/EECS 370 Midterm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LEGv8.md",
+                "file": "Finite State Machine (FSM).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a153da193668c4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sequential Logic.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dennard Scaling.md",
+                "file": "classes/EECS 370.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Moore's Law.md",
+                "file": "Trends in Computing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +91,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exams/EECS 370 Midterm.md",
+                "file": "Combinational Logic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "667ad52d76b32558",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Combinational Logic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8634f9fe47cb76b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Floating Point Numbers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,8 +137,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Object Files.md",
+                "file": "exams/EECS 370 Midterm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Object Files.md",
+                "file": "exams/EECS 370 Midterm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object Files.md"
+                "file": "exams/EECS 370 Midterm.md"
               }
             }
           },
@@ -240,35 +278,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82821faba989eb5c",
+  "active": "aaa870fc285ebb64",
   "lastOpenFiles": [
-    "Dennard Scaling.md",
-    "Moore's Law.md",
-    "exams/EECS 370 Midterm.md",
-    "LEGv8.md",
+    "Trends in Computing.md",
     "Number Bases.md",
-    "Two's Complement Numbers.md",
-    "Object Files.md",
+    "Dennard Scaling.md",
     "cheatsheets/EECS 370 Midterm Cheatsheet.md",
-    "Caller Save vs Callee Save.md",
-    "LC2K.md",
-    "Instruction Set Architecture (ISA).md",
-    "Registers.md",
     "classes/EECS 370.md",
+    "LEGv8.md",
+    "Sequential Logic.md",
+    "Finite State Machine (FSM).md",
+    "exams/EECS 370 Midterm.md",
+    "Combinational Logic.md",
+    "Abstract Data Type (ADT).md",
+    "Big-Omega.md",
+    "Big-O Notation.md",
+    "Caller Save vs Callee Save.md",
+    "Complexity Analysis.md",
+    "Deque.md",
+    "Floating Point Numbers.md",
+    "Instruction Set Architecture (ISA).md",
+    "LC2K.md",
+    "Object Files.md",
+    "Queue.md",
+    "Registers.md",
+    "Stack.md",
+    "Two's Complement Numbers.md",
     "exams/EECS 281 Midterm.md",
     "Finite State Machines.md",
     "exams",
-    "Stack.md",
-    "Queue.md",
-    "Priority Queue.md",
-    "Deque.md",
-    "Complexity Analysis.md",
-    "Big-Omega.md",
-    "Big-O Notation.md",
-    "Abstract Data Type (ADT).md",
-    "cheatsheets/EECS 281 Midterm Cheat Sheet.md",
-    "Linked List.md",
-    "The Standard Template Library.md",
     "cheatsheets",
     "Untitled.canvas",
     "classes",
