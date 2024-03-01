@@ -1,6 +1,11 @@
 ---
 tags:
   - eecs-370
+aliases:
+  - 2's Complement
+  - Two's Complement
+  - Two's Complement Number
+  - 2's Complement Number
 ---
 Related Classes: [[EECS 370]]
 

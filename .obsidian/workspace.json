@@ -13,7 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exams/EECS 370 Midterm.md",
+                "file": "LC2K Single-Cycle Datapath.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f85784f22597386",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "a7f161ad25a1296c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Two's Complement Numbers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,6 +61,19 @@
               "type": "markdown",
               "state": {
                 "file": "Finite State Machine (FSM).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9db06e234ac94073",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Read Only Memory (ROM).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,12 +159,25 @@
             }
           },
           {
-            "id": "82821faba989eb5c",
+            "id": "7478c4281509ce0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Object Files.md",
+                "file": "exams/EECS 281 Midterm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ed489da0455e98d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cheatsheets/EECS 370 Midterm Cheatsheet.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exams/EECS 370 Midterm.md",
+                "file": "LC2K Single-Cycle Datapath.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exams/EECS 370 Midterm.md",
+                "file": "LC2K Single-Cycle Datapath.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exams/EECS 370 Midterm.md"
+                "file": "LC2K Single-Cycle Datapath.md"
               }
             }
           },
@@ -280,35 +327,36 @@
   },
   "active": "aaa870fc285ebb64",
   "lastOpenFiles": [
-    "Trends in Computing.md",
-    "Number Bases.md",
-    "Dennard Scaling.md",
-    "cheatsheets/EECS 370 Midterm Cheatsheet.md",
-    "classes/EECS 370.md",
-    "LEGv8.md",
-    "Sequential Logic.md",
-    "Finite State Machine (FSM).md",
-    "exams/EECS 370 Midterm.md",
     "Combinational Logic.md",
+    "Floating Point Numbers.md",
+    "exams/EECS 281 Midterm.md",
+    "cheatsheets/EECS 370 Midterm Cheatsheet.md",
+    "LC2K Single-Cycle Datapath.md",
+    "assets/lc2k-single-cycle-datapath.png",
+    "assets",
+    "exams/EECS 370 Midterm.md",
+    "Complexity Analysis.md",
+    "Number Bases.md",
+    "Finite State Machine (FSM).md",
+    "Read Only Memory (ROM).md",
+    "Array.md",
+    "LC2K.md",
+    "Two's Complement Numbers.md",
+    "Vector.md",
+    "Quicksort.md",
+    "Object Files.md",
+    "Untitled.canvas",
+    "Sequential Logic.md",
+    "classes/EECS 370.md",
+    "Trends in Computing.md",
+    "Dennard Scaling.md",
+    "LEGv8.md",
     "Abstract Data Type (ADT).md",
     "Big-Omega.md",
     "Big-O Notation.md",
     "Caller Save vs Callee Save.md",
-    "Complexity Analysis.md",
-    "Deque.md",
-    "Floating Point Numbers.md",
-    "Instruction Set Architecture (ISA).md",
-    "LC2K.md",
-    "Object Files.md",
-    "Queue.md",
-    "Registers.md",
-    "Stack.md",
-    "Two's Complement Numbers.md",
-    "exams/EECS 281 Midterm.md",
-    "Finite State Machines.md",
     "exams",
     "cheatsheets",
-    "Untitled.canvas",
     "classes",
     "assets",
     "subsystems-and-divisions/vehicle-dynamics",
@@ -316,7 +364,6 @@
     "subsystems-and-divisions/operations",
     "subsystems-and-divisions/business",
     "subsystems-and-divisions/aerodynamics",
-    "subsystems-and-divisions",
     "notes/images/github-actions.png",
     "notes/images/fork.png",
     "notes/images/obsidian-settings.png",

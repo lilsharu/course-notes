@@ -2,6 +2,8 @@
 tags:
   - eecs-370
 ---
+Related Classes: [[EECS 370]], [[EECS 376]]
+
 Think of any number, $n$. You might be thinking of seventeen, or twenty-five, or even sixty-nine. But what does this number represent? All it is fundamentally representing is a quantity, an amount of *something*.
 
 This quantity can be written, or displayed, in many ways. These different portrayals are called **Bases**.

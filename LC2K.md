@@ -4,6 +4,8 @@ tags:
 ---
 Relevant Classes: [[EECS 370]]
 
+LC2K is a "fake" (albeit Turing Complete) [[Assembly|Assembly Language]] designed by the EECS 370 staff to make learning the concepts of assembly easier (without the ridiculous number of opcodes and other functionality most real assembly languages have).
+
 Instructions are 32 bits in size, registers are 32 bits. There are 8 registers, where register 0 is always 0. It supports $2^{16} = 65536$ words of memory (so there are only that many possible instructions and total pieces of memory).
 
 ## LC2K [[Instruction Set Architecture (ISA)|ISA]]
@@ -20,6 +22,8 @@ Instructions are 32 bits in size, registers are 32 bits. There are 8 registers, 
 | `jalr`  <br>(J-type instruction)       | `0b101`                      | "Jump and Link Registerç; **First** store the value `PC+1` into `regB`, where `PC` is the address where this `jalr` instruction is defined. **Then** branch (set PC) to the address contained in `regA`. **Note** that this implies if `regA` and `regB`refer to the same register, the net effect will be jumping to `PC+1`. |
 | `halt`  <br>(O-type instruction)       | `0b110`                      | Increment the `PC` (as with all instructions), then halt the machine (let the simulator notice that the machine halted).                                                                                                                                                                                                      |
 | `noop`  <br>(O-type instruction)       | `0b111`                      | "No Operation (pronounced no op)" Do nothing.                                                                                                                                                                                                                                                                                 |
+Note: above, `PC` refers to the [[Program Counter]]; and `regA`, `regB`, and `destReg` refer to [[Registers]]
+
 
 | Instruction Type    | Instructions in category | Description of required fields                                                                                                                                                                                                   |
 | ------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,6 +38,8 @@ Instructions are 32 bits in size, registers are 32 bits. There are 8 registers, 
 | I-type instructions (`lw`, `sw`, `beq`) | bits 24-22: `opcode`  <br>bits 21-19: `reg A`  <br>bits 18-16: `reg B`  <br>bits 15-0: `offsetField` (a 16-bit, 2’s complement number with a range of -32768 to 32767) |
 | J-type instructions (`jalr`)            | bits 24-22: `opcode`  <br>bits 21-19: `reg A`  <br>bits 18-16: `reg B`  <br>bits 15-0: `unused` (should all be 0)                                                      |
 | O-type instructions (`halt`, `noop`)    | bits 24-22: `opcode`  <br>bits 21-0: `unused` (should all be 0)                                                                                                        |
+
+The `offsetField` above is a [[Two's Complement Numbers|Two's Complement Number]]
 
 ## Labels
 
