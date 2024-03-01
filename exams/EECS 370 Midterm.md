@@ -23,13 +23,13 @@ I'm going to be very honest, I have no idea what's actually going to be on this 
 	- [[Endianness]]
 - Assembling LC2K into Machine Code
 - C to Assembly (Specifically [[LEGv8]])
-- [[Struct Alignment]]
+- [[LEGv8#Aligning Structs|Struct Alignment]]
 - Function Calls
 	- [[Caller Save vs Callee Save]]
 	- Assigning Variables to Memory Locations
 - [[Object Files]]
-	- [[Symbol Table]]
-	- [[Relocation Table]]
+	- [[Object Files#Symbol Table|Symbol Table]]
+	- [[Object Files#Relocation Table|Relocation Table]]
 - Combinational Logic
 	- [[Logic Gates]]
 	- [[Muxes]]
