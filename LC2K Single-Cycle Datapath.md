@@ -3,6 +3,7 @@ tags:
   - eecs-370
 aliases:
   - Single-Cycle Datapath
+  - Single-Cycle Processor
 ---
 Related Classes: [[EECS 370]]
 
@@ -21,5 +22,4 @@ There are three types of components:
 - **Control**: Everything in orange isn't *transforming* data per say, but controls the flow of information and logic through the circuitry
 	- This primarily includes [[Combinational Logic#Muxes|Muxes]] and a [[Read Only Memory (ROM)|ROM]]
 
-
-
+The biggest drawback of single cycle processors like this one is that the clock period is limited by the slowest instruction (since the clock period is a constant). This means that, even if the slowest instruction is run the fewest time, it bottlenecks every instruction. Often, the effect of this can be fixed / negated by using [[LC2K Multi-Cycle Datapath|Multi-Cycle Processors]] instead.

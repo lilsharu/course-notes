@@ -6,6 +6,8 @@ aliases:
   - Read Only Memory
   - ROMs
 ---
+Relevant Classe: [[EECS 370]]
+
 Read-Only Memory is an "array" of values that are constant and non-volatile. This means that if, for example, the power cuts off, the data is still preserved. Consider the alternative, a [[Sequential Logic#D Flip-Flop|D Flip-Flop.]] The second the power goes out, a D Flip-Flop will lose the current data it is storing: however, a ROM will not.
 
 You can think of ROM as a table: you can have $n$ input bits, and thus $2^n$ different output combinations, based on the input bits. Thus, you might notice, that the input is turned into a single bit using a [[Combinational Logic#Decoder|Decoder]].

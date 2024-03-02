@@ -43,9 +43,9 @@ Simply an Inverted XOR Gate (requires the two bits to be equal)
 
 ## Muxes
 
-A Mux allows us to take many inputs and choose one output.
+A mux, also known as a Multiplexer, allows us to take many inputs and choose a single output.
 
-Muxes are built off of Logic Gates.
+Muxes can be built from Logic Gates.
 
 ## Decoder
 

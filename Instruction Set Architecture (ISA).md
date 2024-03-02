@@ -5,6 +5,8 @@ aliases:
   - ISA
   - Instruction Set Architecture
 ---
+Relevant Classes: [[EECS 370]]
+
 ISAs are a is a description of what operations that a specific set of hardware will support and understand. They are platform-specific and intrinsically tied to what the hardware that it is created for.
 
 Generally, ISAs use and depend on the following:

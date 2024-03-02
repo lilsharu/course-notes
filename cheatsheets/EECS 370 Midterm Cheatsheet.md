@@ -12,4 +12,7 @@ tags:
 - Powers of Two
 - [[Floating Point Numbers]]
 - [[LC2K Single-Cycle Datapath|Single-Cycle Datapath]] (screenshot?)
-- 
+- [[LC2K Multi-Cycle Datapath|Multi-Cycle Datapath]] (screenshot?)
+	- Number of Cycles per instruction
+- [[Pipelining#The Datapath]] (screenshot?)
+- Metric Prefixes

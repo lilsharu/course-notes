@@ -19,7 +19,6 @@ I'm going to be very honest, I have no idea what's actually going to be on this 
 	- [[Number Bases|Binary, Hex, Octal, Decimal]]
 	- [[Two's Complement Numbers]]
 	- [[Floating Point Numbers]]
-	- [[Biased Numbers (Floating Point Exponents)]]
 	- [[Endianness]]
 - Assembling LC2K into Machine Code
 - C to Assembly (Specifically [[LEGv8]])
@@ -48,5 +47,3 @@ I'm going to be very honest, I have no idea what's actually going to be on this 
 - Multi-Cycle Processor
 	- [[LC2K Multi-Cycle Datapath]]
 - [[Pipelining]]
-	- [[Data Hazards]]
-	- [[Control Hazards]]
