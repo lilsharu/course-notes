@@ -4,115 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a7eda6f0a615ec4c",
+        "id": "237104fb877fa6e4",
         "type": "tabs",
         "children": [
           {
-            "id": "aaa870fc285ebb64",
+            "id": "cff8ed33d28646a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exams/EECS 370 Midterm.md",
+                "file": "Caller Save vs Callee Save.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b52b38fe91bede9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "classes/EECS 370.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1cfcd4a80fbfae1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cheatsheets/EECS 370 Midterm Cheatsheet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d36b0feaad99ff5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "cc194fd3b2b6e3cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Combinational Logic.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "667ad52d76b32558",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Combinational Logic.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8634f9fe47cb76b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Floating Point Numbers.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7478c4281509ce0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exams/EECS 281 Midterm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ed489da0455e98d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/lc2k-single-cycle-datapath.png"
               }
             }
           }
@@ -182,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exams/EECS 370 Midterm.md",
+                "file": "Caller Save vs Callee Save.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exams/EECS 370 Midterm.md",
+                "file": "Caller Save vs Callee Save.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exams/EECS 370 Midterm.md"
+                "file": "Caller Save vs Callee Save.md"
               }
             }
           },
@@ -257,15 +161,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aaa870fc285ebb64",
+  "active": "cff8ed33d28646a0",
   "lastOpenFiles": [
     "cheatsheets/EECS 370 Midterm Cheatsheet.md",
-    "Pipelining.md",
-    "exams/EECS 281 Midterm.md",
-    "exams/EECS 370 Midterm.md",
-    "classes/EECS 370.md",
     "assets/lc2k-pipelined-datapath.png",
+    "Finite State Machine (FSM).md",
+    "Deque.md",
+    "Combinational Logic.md",
+    "Big-O Notation.md",
+    "exams/EECS 281 Midterm.md",
     "assets/lc2k-single-cycle-datapath.png",
+    "classes/EECS 370.md",
+    "Floating Point Numbers.md",
+    "LC2K.md",
+    "exams/EECS 370 Midterm.md",
+    "Pipelining.md",
     "LC2K Multi-Cycle Datapath.md",
     "LC2K Single-Cycle Datapath.md",
     "Read Only Memory (ROM).md",
@@ -278,16 +188,10 @@
     "Complexity Analysis.md",
     "assets/lc2k-multi-cycle-datapath.png",
     "Trends in Computing.md",
-    "Combinational Logic.md",
-    "Floating Point Numbers.md",
     "assets",
-    "Finite State Machine (FSM).md",
     "Array.md",
-    "LC2K.md",
     "Two's Complement Numbers.md",
     "Vector.md",
-    "Quicksort.md",
-    "Object Files.md",
     "Untitled.canvas",
     "exams",
     "cheatsheets",

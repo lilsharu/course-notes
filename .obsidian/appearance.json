@@ -1,5 +1,7 @@
 {
   "accentColor": "#ec7b4b",
   "cssTheme": "AnuPpuccin",
-  "translucency": false
+  "translucency": false,
+  "textFontFamily": "SN Pro",
+  "baseFontSize": 18
 }
