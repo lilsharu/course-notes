@@ -11,16 +11,25 @@
             "id": "cff8ed33d28646a0",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3a9742b02982cf1d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Caller Save vs Callee Save.md",
+                "file": "Linking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Caller Save vs Callee Save.md",
+                "file": "Linking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Caller Save vs Callee Save.md",
+                "file": "Linking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Caller Save vs Callee Save.md"
+                "file": "Linking.md"
               }
             }
           },
@@ -161,37 +170,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cff8ed33d28646a0",
+  "active": "3a9742b02982cf1d",
   "lastOpenFiles": [
+    "Linking.md",
+    "Big-O Notation.md",
+    "Abstract Data Type (ADT).md",
+    "LC2K.md",
+    "Instruction Set Architecture (ISA).md",
+    "LC2K Multi-Cycle Datapath.md",
+    "Object Files.md",
+    "Registers.md",
+    "Sequential Logic.md",
+    "Caller Save vs Callee Save.md",
     "cheatsheets/EECS 370 Midterm Cheatsheet.md",
     "assets/lc2k-pipelined-datapath.png",
     "Finite State Machine (FSM).md",
     "Deque.md",
     "Combinational Logic.md",
-    "Big-O Notation.md",
     "exams/EECS 281 Midterm.md",
     "assets/lc2k-single-cycle-datapath.png",
     "classes/EECS 370.md",
     "Floating Point Numbers.md",
-    "LC2K.md",
     "exams/EECS 370 Midterm.md",
     "Pipelining.md",
-    "LC2K Multi-Cycle Datapath.md",
     "LC2K Single-Cycle Datapath.md",
     "Read Only Memory (ROM).md",
     "Queue.md",
     "Priority Queue.md",
-    "Registers.md",
-    "Sequential Logic.md",
     "Number Bases.md",
-    "Instruction Set Architecture (ISA).md",
     "Complexity Analysis.md",
     "assets/lc2k-multi-cycle-datapath.png",
     "Trends in Computing.md",
     "assets",
-    "Array.md",
-    "Two's Complement Numbers.md",
-    "Vector.md",
     "Untitled.canvas",
     "exams",
     "cheatsheets",
