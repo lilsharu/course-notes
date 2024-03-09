@@ -16,8 +16,8 @@ There are four types of values that your relocation table can link: Text -> Text
 
 When you're linking to something in the Text Section, the process followed is simple:
 
-- Since all text is grouped together, calculate how many lines from the beginning were added before the file that you're linking too. Then, add the value from the symbol table to this calculation.
-- Set the "immediate" value to this newly calculated value, ignoring what was previously there.
+- Since all text is grouped together, calculate how many lines from the beginning were added before the file that you're linking too. Then, add the value from the symbol table to this calculation (if relevant)
+- Add this calculated value to the "immediate" value of the instruction.
 
 ## Linking to Data
 

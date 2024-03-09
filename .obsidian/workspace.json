@@ -172,6 +172,7 @@
   },
   "active": "3a9742b02982cf1d",
   "lastOpenFiles": [
+    "classes/EECS 370.md",
     "Linking.md",
     "Big-O Notation.md",
     "Abstract Data Type (ADT).md",
@@ -189,7 +190,6 @@
     "Combinational Logic.md",
     "exams/EECS 281 Midterm.md",
     "assets/lc2k-single-cycle-datapath.png",
-    "classes/EECS 370.md",
     "Floating Point Numbers.md",
     "exams/EECS 370 Midterm.md",
     "Pipelining.md",
