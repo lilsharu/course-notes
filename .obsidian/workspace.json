@@ -27,9 +27,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82dedbaabcec285e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generating Unique Identifiers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac57c6885213f09e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "classes/EECS 370.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "classes/EECS 482.md",
+                "file": "Generating Unique Identifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "classes/EECS 482.md",
+                "file": "Generating Unique Identifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "classes/EECS 482.md"
+                "file": "Generating Unique Identifiers.md"
               }
             }
           },
@@ -170,12 +196,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a9742b02982cf1d",
+  "active": "82dedbaabcec285e",
   "lastOpenFiles": [
-    "classes/EECS 376.md",
     "classes/EECS 482.md",
-    "Linking.md",
+    "Generating Unique Identifiers.md",
     "classes/EECS 370.md",
+    "classes/EECS 376.md",
+    "Linking.md",
     "Big-O Notation.md",
     "Abstract Data Type (ADT).md",
     "LC2K.md",
@@ -199,7 +226,6 @@
     "Read Only Memory (ROM).md",
     "Queue.md",
     "Priority Queue.md",
-    "Number Bases.md",
     "assets/lc2k-multi-cycle-datapath.png",
     "assets",
     "Untitled.canvas",
