@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linking.md",
+                "file": "classes/EECS 482.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linking.md",
+                "file": "classes/EECS 482.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linking.md",
+                "file": "classes/EECS 482.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linking.md"
+                "file": "classes/EECS 482.md"
               }
             }
           },
@@ -172,8 +172,10 @@
   },
   "active": "3a9742b02982cf1d",
   "lastOpenFiles": [
-    "classes/EECS 370.md",
+    "classes/EECS 376.md",
+    "classes/EECS 482.md",
     "Linking.md",
+    "classes/EECS 370.md",
     "Big-O Notation.md",
     "Abstract Data Type (ADT).md",
     "LC2K.md",
@@ -198,9 +200,7 @@
     "Queue.md",
     "Priority Queue.md",
     "Number Bases.md",
-    "Complexity Analysis.md",
     "assets/lc2k-multi-cycle-datapath.png",
-    "Trends in Computing.md",
     "assets",
     "Untitled.canvas",
     "exams",
