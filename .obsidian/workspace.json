@@ -11,8 +11,13 @@
             "id": "cff8ed33d28646a0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Generating Unique Identifiers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -94,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Generating Unique Identifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Generating Unique Identifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Generating Unique Identifiers.md"
+              }
             }
           },
           {
@@ -167,9 +176,9 @@
   },
   "active": "cff8ed33d28646a0",
   "lastOpenFiles": [
-    "classes/EECS 482.md",
-    "Generating Unique Identifiers.md",
     "classes/EECS 370.md",
+    "Generating Unique Identifiers.md",
+    "classes/EECS 482.md",
     "classes/EECS 376.md",
     "Linking.md",
     "Big-O Notation.md",
