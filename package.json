@@ -1,11 +1,12 @@
 {
-  "name": "course-notes",
-  "description": "A collection of random notes for different courses I've taken",
+  "name": "@jackyzha0/quartz",
+  "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
-  "version": "0.0.1",
+  "version": "4.2.3",
   "type": "module",
-  "author": "Shourya Bansal <bansalsh@umich.edu>, jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
   "license": "MIT",
+  "homepage": "https://quartz.jzhao.xyz",
   "repository": {
     "type": "git",
     "url": "https://github.com/jackyzha0/quartz.git"
