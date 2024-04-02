@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d4a4ac0d29844fe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ia-applications/EECS 203 IA Application Video Plan.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Complexity Analysis.md",
+                "file": "ia-applications/EECS 203 IA Application Video Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Complexity Analysis.md",
+                "file": "ia-applications/EECS 203 IA Application Video Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Complexity Analysis.md"
+                "file": "ia-applications/EECS 203 IA Application Video Plan.md"
               }
             }
           },
@@ -161,8 +175,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47f3624109af8f33",
+  "active": "d4a4ac0d29844fe1",
   "lastOpenFiles": [
+    "ia-applications/EECS 281 IA Application Video Plan.md",
+    "ia-applications/EECS 203 IA Application Video Plan.md",
+    "Complexity Analysis.md",
+    "ia-applications",
     "Deque.md",
     "Combinational Logic.md",
     "Big-O Notation.md",
@@ -188,9 +206,6 @@
     "assets/lc2k-single-cycle-datapath.png",
     "Floating Point Numbers.md",
     "exams/EECS 370 Midterm.md",
-    "LC2K Single-Cycle Datapath.md",
-    "Read Only Memory (ROM).md",
-    "Queue.md",
     "assets/lc2k-multi-cycle-datapath.png",
     "assets",
     "Untitled.canvas",
@@ -202,7 +217,6 @@
     "subsystems-and-divisions/communications",
     "subsystems-and-divisions/operations",
     "subsystems-and-divisions/business",
-    "subsystems-and-divisions/aerodynamics",
     "notes/images/github-actions.png",
     "notes/images/fork.png",
     "notes/images/obsidian-settings.png",
