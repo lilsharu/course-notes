@@ -147,8 +147,6 @@ Homework Covered: *Homework 01 - Homework 10a*
 > 
 > There exists two nonempty disjoint sets $X, Y \subseteq V$ such that $X \sqcup Y = D$ and $\bar X \cap Y = \emptyset = X \cap \bar Y$. Fix $x \in X$ and $y \in Y$. Without a loss of generality, $x < y$.
 > 
-> Consider the set $G = \{a \in X \mid a \leq y\}$. Let $\alpha = \sup G$. We can see that $x \leq \alpha \leq y$. Because $D$ is an interval, $\alpha \in G$, and thus $\alpha \in \bar X$. Now, because $\bar X \cap Y = \emptyset$, $\alpha < y$. 
+> Consider the set $G = \{a \in X \mid a \leq y\}$. Let $\alpha = \sup G$. We can see that $x \leq \alpha \leq y$. By the equality of the closure and sequential closure, $\alpha \in \bar X$. Now, because $\bar X \cap Y = \emptyset$, $\alpha \notin Y \implies \alpha < y$. Since $X \sqcup Y = D$ and $\alpha \notin Y$, $\alpha \in X$. 
 > 
-> Now consider the set $Z = \{b \in Y \mid b \geq \alpha\}$, and let $\beta = \inf Z$. Similarly, we can see that $\alpha \leq \beta \leq y$. 
-> 
-> $\lambda \leq b$ because otherwise, $b \in X$ which is a contradiction because $X$ and $Y$ are disjoint.
+> Now consider the set $Z = \{b \in Y \mid b \geq \alpha\}$, and let $\beta = \inf Z$. Similarly, we can see that $\alpha \leq \beta \leq y$. Since $\alpha \in X$ and $\beta \in \bar Y$, 
