@@ -24,7 +24,7 @@ Homework Covered: *Homework 01 - Homework 10a*
 > Fix an $n \in \mathbb{N}$. Only a single element of $\mathcal C$ contains $1/n$ (specifically, the one centered around $1/n$). Therefore, no finite subcover exists, because $\mathbb N$ is unbounded and has infinitely many elements.
 
 ### Question 171
-**Show that every finite subset of $\mathbb R$ is [[Topological Space|compact]] in $\mathbb R$.**
+**Show that every finite subset of $\mathbb R$ is [[Compactness|compact]] in $\mathbb R$.**
 
 > Fix a finite subset of $S \subsetneq \mathbb R$. Fix an open cover $C$ for $S$. For each $s \in S$, there is at least one $\mathcal O \in C$ such that $s \in \mathcal O$. Choose one and denote this $O_s$. If we take the subcover $C' \subseteq C$ defined by $C' := \{O_s \mid s \in S\}$, it is finite (since $S$ is finite) and a cover (since each $s \in S$ is covered by at least one ball, namely $O_s$). Therefore, a finite subcover must exist for every open cover $C$. Therefore, $S$ is compact.
 
