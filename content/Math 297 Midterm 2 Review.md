@@ -74,7 +74,7 @@ Homework Covered: *Homework 01 - Homework 10a*
 > 
 > Fix a [[Cauchy Sequence]] $(a_n)$ in $A$. Because $A$ is sequentially compact, it contains a convergent subsequence $(a_{n_k}) \to a$, where $a \in A$. Because $(a_n)$ is Cauchy, it also converges; therefore, it must also converge to $a$. So it converges to an element in $A$. Therefore, $A$ is sequentially closed, so $A$ is also closed.
 
-### Question 178: Prove the [[Heine-Borel Theorem]]
+### Question 178: [[Heine-Borel Theorem]]
 **A Subset $C$ of a finite dimensional inner product space $(V, \langle , \rangle)$ is [[Sequential Compactness|sequentially compact]] if and only if it is both closed and bounded**.
 
 > **$\implies$ Suppose $C$ is sequentially compact.**
@@ -90,7 +90,7 @@ Homework Covered: *Homework 01 - Homework 10a*
 > 
 > Because $C$ is bounded (and $\mathbb R$ is complete), $\sup C$ and $\inf C$ exist. And because $C$ is closed, if $\sup C$ and $\inf C$ exist, they are both respectively in $C$. Therefore, since $\sup C \in C$, $C$ has a maximum (and conversely, since $\inf C \in C$, $C$ has a minimum).
 
-## Worksheet 14
+## Worksheet 14 - Connected Sets
 
 ### Question 182
 
@@ -143,10 +143,99 @@ Homework Covered: *Homework 01 - Homework 10a*
 > 
 > Following similar logic, the opposite is also true. Therefore, $D$ is not connected.
 > 
-> $\impliedby$ **Let us prove via contradiction: Suppose $D$ is an interval. Assume for contradiction that $D$ is not connected.**
+> $\impliedby$ **Let us prove via contradiction: Suppose that $D$ is not connected.**
 > 
 > There exists two nonempty disjoint sets $X, Y \subseteq V$ such that $X \sqcup Y = D$ and $\bar X \cap Y = \emptyset = X \cap \bar Y$. Fix $x \in X$ and $y \in Y$. Without a loss of generality, $x < y$.
 > 
-> Consider the set $G = \{a \in X \mid a \leq y\}$. Let $\alpha = \sup G$. We can see that $x \leq \alpha \leq y$. By the equality of the closure and sequential closure, $\alpha \in \bar X$. Now, because $\bar X \cap Y = \emptyset$, $\alpha \notin Y \implies \alpha < y$. Since $X \sqcup Y = D$ and $\alpha \notin Y$, $\alpha \in X$. 
+> Consider the set $G = \{a \in X \mid a \leq y\}$. Let $\alpha = \sup G$. We can see that $x \leq \alpha \leq y$. By the equality of the closure and sequential closure, $\alpha \in \bar X$. Now, because $\bar X \cap Y = \emptyset$, $\alpha \notin Y \implies \alpha < y$. Since $X \sqcup Y = D$ and $\alpha \notin Y$, $\alpha \in X$ or $D$ is not an interval. Let us suppose $\alpha \in X$. 
 > 
-> Now consider the set $Z = \{b \in Y \mid b \geq \alpha\}$, and let $\beta = \inf Z$. Similarly, we can see that $\alpha \leq \beta \leq y$. Since $\alpha \in X$ and $\beta \in \bar Y$, 
+> Now consider the set $Z = \{b \in Y \mid b \geq \alpha\}$, and let $\beta = \inf Z$. Similarly, we can see that $\alpha \leq \beta \leq y$. Since $\alpha \in X$ and $\beta \in \bar Y$, and $X \cap \bar Y = \emptyset$, $\alpha \neq \beta \implies \alpha < \beta$,
+> 
+> Since the reals are dense in the reals, there exists a number $c$ in $(\alpha, \beta)$ such that, but $c \notin X$ (because $c \leq y$ but $c \neq \sup G$) and $c \notin Y$ (because $c \geq \alpha$ but $c \neq \inf Z$). This means that $c \notin X \cup Y = D$, so $D$ is not an interval.
+
+
+### Worksheet 15 - Limits
+### Question 189
+**Show that 3 is a limit point of both $\mathbb R$ and $\mathbb R \setminus \{3\}$, but 3 is not a [[Limit Point|limit point]] of $\mathbb N$**
+
+> **$\mathbb R$**
+> $\forall \delta \in \mathbb R_{>0} \,\exists x \in (3 - \delta, 3) \cap \mathbb R$ (which already doesn't include 3) because the reals are dense in the reals
+> 
+> **$\mathbb N$**
+> 
+> Consider $\delta = 1/67$. There are no natural numbers that are less than 1 away from 3, so there exists no non-3 elements
+
+### Question 190
+**Suppose $(V, \langle , \rangle)$ is a finite dimensional [[Inner Product Space]] and $A \subseteq V$. Show that $\vec v$ is a limit point of $A$ if and only if there is a sequence in $A \setminus \{\vec v\}$ that converges to $\vec v$.**
+
+> **$\implies$ Suppose that $\vec v$ is a limit point of $A$.**
+> 
+> Consider the sequence $(a_n)$ where $a_n$ is an arbitrary element in $B_{1/n}(\vec v) \setminus \{\vec v\}$. This clearly converges to $\vec v$.
+> 
+> **$\impliedby$ Suppose that there is a sequence $(a_n)$ in $A \setminus \{\vec v\}$ that converges to $\vec v$**
+> 
+> Fix $\delta > 0$. Because $(a_n)$ is a convergent sequence, there exists an $N \in \mathbb N$ such that $\forall n \in \mathbb N_{>N}$, $\lVert a_n - \vec v \rVert < \delta$. That means that $B_{\delta}(\vec v)$ is nonempty.
+
+### Question 191
+**Suppose $(V, \langle , \rangle)$ is a finite dimensional [[Inner Product Space]] and $B \subseteq V$. Is every point in $B$ a [[Limit Point|limit point]] of $B$? Is every limit point of $B$ an element of $B$?**
+
+> Not every point of $B$ is a limit point of $B$. Fix $v \in V$. Consider $B = \{v\}$. $v \in B$ but $v$ is not a limit point of $B$.
+> 
+> Not every limit point of $B$ is an element of $B$: consider $\mathbb R \setminus \{3\}$. 3 is a limit point of this, but 3 is not in the subset.
+
+### Question 192
+**Suppose $(V, \langle , \rangle)$ is a finite dimensional [[Inner Product Space]] and $C \subseteq V$. Show that $C$ is [[Closed (Topology)|closed]] if and only if every [[Limit Point|limit point]] of $C$ belongs to $C$.**
+
+> **$\implies$ Suppose $C$ is closed.**
+> 
+> That means $C$ is [[Sequentially Closed (Topology)|sequentially closed]]. That means that every convergent sequence in $C$ converges to an element in $C$.
+> 
+> Fix a limit point $v$ in $C$: by [[#Question 190]], there is a sequence in $C \setminus \{v\}$ that converges to $v$. Since $C$ is closed, that means $v$ must be in $C$.
+> 
+> **$\impliedby$ Suppose every limit point of $C$ belongs to $C$.**
+> 
+> Fix a convergent sequence $(c_n) \to v$ in $C$. This means that $v$ is a limit point of $C$ (by [[#Question 190]]). That means that $v$ is in $C$. Therefore, every Cauchy sequence converges to something in $C$, which means $C$ is sequentially closed $\iff$ C is closed.
+> 
+
+### Question 193
+**With the notation of the definition of the [[Limit|limit]], what does it mean to say $\lim_{\vec x \to \vec v} f(\vec x)\neq \vec w$**.
+
+> It means that there is a ball around $\vec w$ which $f(\vec x)$ never reaches.
+
+### Question 194
+**Suppose $(V, \langle , \rangle_V)$ and $(W, \langle , \rangle_W)$ are finite dimensional [[Inner Product Space|inner product spaces]]. Fix a [[Linear Transformation|linear transformation]] $T: V \to W$ and an [[Orthonormal Basis]] $\{\vec e_i : 1 \leq i \leq n = \dim(V)\}$ for $V$. Set $c = \sqrt{n} \cdot \max\{\lVert T(\vec e_1\rVert : 1 \leq i \leq n\}$.**
+
+**Show that $\lVert T(\vec v)\rVert_W \leq c \cdot \lVert \vec v \rVert_V$ for all $\vec v$ in $V$.**
+
+INCOMPLETE
+
+> Fix $v \in V$.
+> 
+> $v = \sum_i \langle v, \vec e_i\rangle \vec e_i$ in orthonormal coordinates. That means that
+> 
+> $$\lVert v \rVert_V = \sqrt{\langle v, v\rangle}_V = \sqrt{\sum_{i=1}^n\langle v, \vec e_i \rangle_V^2} \leq \sqrt{n\max\{\}}
+$$
+> $$
+\begin{align*}
+\lVert T(\vec v)\rVert_W &= \lVert \langle v, \vec e_1 \rangle T(\vec e_1) + \cdots + \langle v, \vec e_n \rangle T(\vec e_n)\rVert_W\\
+&\leq |\langle v, \vec e_1 \rangle| \lVert T(\vec e_1)\rVert + \cdots + |\langle v, \vec e_n \rangle| \lVert T(\vec e_n)\rVert_W\\
+&\leq |\langle v, \vec e_1 \rangle| \frac{c}{\sqrt n} + \cdots + |\langle v, \vec e_n \rangle| \frac{c}{\sqrt{n}}\\
+&= \frac{c}{\sqrt n}\left(|\langle v, \vec e_1 \rangle| + \cdots + |\langle v, \vec e_n\rangle|\right)\\
+\end{align*}
+$$
+
+**Conclude that $\lim_{\vec x \to \vec 0} T(\vec x) = \vec 0$**
+
+### Question 195, 196, 197
+**Show: if $\lim_{\vec x\to \vec v}f(\vec x) = \vec w$, then for all sequences $(\vec a_n)$ in $A \setminus \{\vec v\}$ that converge to $\vec v$ we have that the sequence $(f(\vec a_n))$ converges to $\vec w$.**
+
+> Fix a sequence, epsilon delta to prove that it converges (they are equivalent)
+
+**Show: if $\lim_{\vec x\to \vec v}f(\vec x) \neq \vec w$, then there is a sequence $(\vec a_n)$ in $A \setminus \{\vec v\}$ that converge to $\vec v$ yet $(f(\vec a_n))$ does not converge to $\vec w$.
+
+> There is an epsilon for which no matter how small your delta gets, there is no $N$ in your sequence for which all subsequent elements also map to an element within epsilon of the target.
+
+```ad-important
+**Conclude: $\lim_{\vec x\to \vec v}f(\vec x) = \vec w$, if and only if for all sequences $(\vec a_n)$ in $A \setminus \{\vec v\}$ that converge to $\vec v$ we have that the sequence $(f(\vec a_n))$ converges to $\vec w$.**
+```
+

@@ -1,6 +1,7 @@
 ---
 tags:
   - math-297
+  - definition
 aliases:
   - open cover
 ---
