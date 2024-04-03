@@ -1,5 +1,5 @@
 ---
-title: Data Structures and Algorithms
+title: "EECS 281: Data Structures and Algorithms"
 department: EECS
 tags:
   - eecs-281

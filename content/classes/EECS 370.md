@@ -1,5 +1,5 @@
 ---
-title: Introduction to Computer Organization
+title: "EECS 370: Introduction to Computer Organization"
 department: EECS
 tags:
   - eecs-370

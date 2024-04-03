@@ -1,5 +1,5 @@
 ---
-title: Introduction to Operating Systems
+title: "EECS 482: Introduction to Operating Systems"
 department: EECS
 tags:
   - eecs-482

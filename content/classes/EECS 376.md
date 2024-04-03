@@ -1,5 +1,5 @@
 ---
-title: Foundations of Computer Science
+title: "EECS 376: Foundations of Computer Science"
 department: EECS
 tags:
   - eecs-376

@@ -1,5 +1,5 @@
 ---
-title: Discrete Math
+title: "EECS 203: Discrete Math"
 department: EECS
 tags:
   - eecs-203

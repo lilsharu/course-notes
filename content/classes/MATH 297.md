@@ -1,6 +1,6 @@
 ---
-title: Introduction to Analysis
-department: MATH
+title: "Math 297: Introduction to Analysis"
+department: Math
 tags:
   - math-297
 year: Winter 2024

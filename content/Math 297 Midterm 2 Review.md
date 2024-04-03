@@ -6,8 +6,9 @@ tags:
 Relevant Classe: [[Math 297]]
 
 # Content
-Worksheets Covered: Worksheet 01 - Worksheet 23
-Homework Covered: Homework 01 - Homework 10a
+Worksheets Covered: *Worksheet 01 - Worksheet 23*
+
+Homework Covered: *Homework 01 - Homework 10a*
 
 # Questions and Inspiration
 ## Worksheet 13 - Topology: Sequential Compactness
@@ -20,7 +21,7 @@ Homework Covered: Homework 01 - Homework 10a
 
 **Does $\mathcal C$ contain a finite subcover of $S$**
 
-> Fix an $n \in \mathbb{N}$. Only a single element of $\mathcal C$ contains $1/n$ (specifically, the one centered around $1/n$).
+> Fix an $n \in \mathbb{N}$. Only a single element of $\mathcal C$ contains $1/n$ (specifically, the one centered around $1/n$). Therefore, no finite subcover exists, because $\mathbb N$ is unbounded and has infinitely many elements.
 
 ### Question 171
 **Show that every finite subset of $\mathbb R$ is [[Topological Space|compact]] in $\mathbb R$.**

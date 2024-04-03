@@ -1,5 +1,5 @@
 ---
-title: Programming and Data Structures
+title: "EECS 280: Programming and Data Structures"
 department: EECS
 tags:
   - eecs-280
