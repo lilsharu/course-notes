@@ -91,3 +91,64 @@ Homework Covered: *Homework 01 - Homework 10a*
 > Because $C$ is bounded (and $\mathbb R$ is complete), $\sup C$ and $\inf C$ exist. And because $C$ is closed, if $\sup C$ and $\inf C$ exist, they are both respectively in $C$. Therefore, since $\sup C \in C$, $C$ has a maximum (and conversely, since $\inf C \in C$, $C$ has a minimum).
 
 ## Worksheet 14
+
+### Question 182
+
+**Suppose $(V, \langle, \rangle)$ is a finite dimensional [[Inner Product Space]]. Let $A$ and $B$ be nonempty subsets of $V$ such that $V = A \cup B$. We will construct [[Cauchy Sequence|Cauchy Sequences]] $(\vec a_n)$ in $A$ and $\vec b_n$ in $B$ that both converge to the same element of $V$.**
+
+**Since $A$ and $B$ are nonempty, we can choose $\vec a_1 \in A$ and $\vec b_1 \in B$. Let $\vec c_1 = (\vec a_1 + \vec b_1) / 2 \in V$. Since $\vec c_1 \in V = A \cup B$, we know that that $\vec c_1 \in A$ or $\vec c_1 \in B$. If $\vec c_1$ belongs to $A$, then define $\vec a_2 = \vec c_1$ and $\vec b_2 = \vec b_1$. Otherwise,  set  $\vec a_2 = \vec a_1$ and $\vec b_2 = \vec c_1$. How would we define $\vec c_2$? $\vec a_3$?...**
+
+> Repeat the same process, but generalize for an arbitrary $\vec a_i$ and $\vec b_i$.
+
+**Show that both $(\vec a_n)$ and $(\vec b_n)$ are Cauchy.**
+
+> You can prove this more rigorously, but essentially the gap between $a_i$ and $a_{i + 1}$ is at least one half of the distance between $a_i$ and $b_i$. This means that, inductively, the distance is less than $1/2^i \cdot |b_1 - a_1|$. Since the distance between consecutive elements is decreasing geometrically, we have already proved that it must be Cauchy (using the [[Geometric Series|geometric series]] formula)
+
+**Show that there is a vector $\vec v \in V$ such that $\vec a_n \to \vec v$ and $\vec b_n \to \vec v$.**
+
+> Because $(a_n)$ and $(b_n)$ are Cauchy, they are convergent. Denote $\lim a_n = v$ and $\lim b_n = \ell$.
+> 
+> Consider the sequence $(d_n) = (b_n - a_n)$. Fix any $\varepsilon > 0$. There exists an $N \in \mathbb N$ such that $\forall n \in \mathbb N_{>N}$, $b_n - a_n = |b_1 - a_1| \cdot \frac{1}{2^{n - 1}} < \varepsilon$. Therefore, $d_n \to 0$.
+> 
+> Both $(a_n)$ and $(b_n)$ are monotonic and bounded between by $a_1, v$ and $b_1, \ell$ respectively. Since the sequences get arbitrarily close to each other and they converge, their limits must be the same.
+
+**Conclude that every finite dimensional [[Inner Product Space]] is connected.**
+
+> By the above construction, we can see that either $\bar A \cap B$ is nonempty (a sequence in $A$ converges to something in $B$) or $\bar B \cap A$ is nonempty by the same reasoning.
+
+### Question 183
+**The above problem suggests a general approach for determining if a subset of a finite dimensional [[Inner Product Space]] is connected. Suppose $(V, \langle, \rangle)$ is a finite dimensional inner product space. Show that a subset $E$ of $V$ is connected if and only if for all nonempty disjoint subsets $A, B \subseteq V$ for which $E = A \cup B$ there exists a [[Cauchy Sequence|Cauchy sequence]] contained in one of $A$ or $B$ that converges to an element of the other.**
+
+> $\implies$ Suppose $E$ is connected.
+> 
+> Fix any disjoint subsets $A \cup B$ such that $E = A \cup B$. Without a loss of generality $\bar A \cap B \neq \emptyset$. Fix $\ell \in \bar A \cap B$ because it is nonempty. Since $\ell \in \bar A$, there exists a Cauchy sequence in $A$ that converges to $\ell$. $\ell \in B$ as well, so this sequence converges to an element of $B$.
+> 
+> $\impliedby$ Suppose for all nonempty disjoint subsets $A, B \subseteq V$ for which $E = A \cup B$ there exists a Cauchy sequence contained in one of $A$ or $B$ that converges to an element of the other. 
+> 
+> Fix $A, B$ such that $A \sqcup B = E$. Without a loss of generality, say there exists $(a_n)$ in $A$ that converges to an $\ell \in B$. That means that $\ell \in \bar A$ because the [[Closure]] is equal to the [[Sequential Closure]] in finite dimensional inner product spaces. $\ell \in \bar A \land \ell \in B \implies \ell \in \bar A \cap B$.
+> 
+> This means that $E$ is not disconnected, and therefore must be connected.
+
+### Question 185, 186, 187
+
+**Show that for every subset $D$ of $\mathbb R$, $D$ is connected if and only if $D$ is an interval.**
+
+> **$\implies$ Let us prove the contrapositive: Suppose $D$ is not an interval.**
+> 
+> There exists $x, y, z \in R$ such that $x < y < z$; $x, z \in D$; and $y \notin D$.
+> 
+> Let $X = D \cap (-\infty, y)$ and let $Y = D \cap (y, \infty)$. Because $y \notin D$, we can easily see that $X \sqcup Y = D$.
+> 
+> $\bar X = \overline{D \cap (-\infty, y)} \subseteq \overline{D} \cap \overline{(-\infty, y)} = \bar D \cap [-\infty, y]$. $\bar X \cap Y \subseteq D \cap \bar D \cap [-\infty, y] \cap (y, infty) = \emptyset$, so $\bar X \cap Y = \emptyset$. 
+> 
+> Following similar logic, the opposite is also true. Therefore, $D$ is not connected.
+> 
+> $\impliedby$ **Let us prove via contradiction: Suppose $D$ is an interval. Assume for contradiction that $D$ is not connected.**
+> 
+> There exists two nonempty disjoint sets $X, Y \subseteq V$ such that $X \sqcup Y = D$ and $\bar X \cap Y = \emptyset = X \cap \bar Y$. Fix $x \in X$ and $y \in Y$. Without a loss of generality, $x < y$.
+> 
+> Consider the set $G = \{a \in X \mid a \leq y\}$. Let $\alpha = \sup G$. We can see that $x \leq \alpha \leq y$. Because $D$ is an interval, $\alpha \in G$, and thus $\alpha \in \bar X$. Now, because $\bar X \cap Y = \emptyset$, $\alpha < y$. 
+> 
+> Now consider the set $Z = \{b \in Y \mid b \geq \alpha\}$, and let $\beta = \inf Z$. Similarly, we can see that $\alpha \leq \beta \leq y$. 
+> 
+> $\lambda \leq b$ because otherwise, $b \in X$ which is a contradiction because $X$ and $Y$ are disjoint.
