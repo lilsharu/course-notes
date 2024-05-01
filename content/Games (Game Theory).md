@@ -1,11 +1,6 @@
 ---
 tags:
   - game-theory
-aliases:
-  - games
-  - game
-  - Games
-  - Game
 ---
 Relevant Course: [[Game Theory]]
 
