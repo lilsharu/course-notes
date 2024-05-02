@@ -111,9 +111,8 @@ This makes sure code doesn't need to change, but adds a small amount of hardware
 
 There are certain values of data that are ready at different stages of the program (e.g. `add/nor` results are ready after the execute stage). If we can skip the writeback stage during a hazard and forward those results early, we could avoid a lot of excess stalls. Essentially, allow the program to read incorrect values from the register first, and then modify / update them later before they're used using hardware rerouting.
 
-```ad-warning
-This does not eliminate all stalls, but can greatly reduce the number of stalls needed in a program compared with [[#Detect and Stall]].
-```
+> [!warning]
+> This does not eliminate all stalls, but can greatly reduce the number of stalls needed in a program compared with [[#Detect and Stall]].
 
 This leads to four different types of hazards, which all require different approaches to solving the hazard. The following assembly should describe these different options:
 
@@ -128,9 +127,8 @@ sw 6 2 12 ; hazard "3"
 > These Hazards are not mutually exclusive: `regA` and `regB` can both be hazarded, and the hazards can be different. Therefore, the circuit gets quite a bit more complicated.
 
 
-```ad-tldr
-The only time a stall is now added is when have an `lw` command directly followed by a dependent instruction (since `lw` requires an additional cycle to read from memory).
-```
+> [!tldr]
+>The only time a stall is now added is when have an `lw` command directly followed by a dependent instruction (since `lw` requires an additional cycle to read from memory).
 
 #### Hazard "1"
 

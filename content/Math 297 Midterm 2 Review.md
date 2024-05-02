@@ -235,7 +235,6 @@ $$
 
 > There is an epsilon for which no matter how small your delta gets, there is no $N$ in your sequence for which all subsequent elements also map to an element within epsilon of the target.
 
-```ad-important
-**Conclude: $\lim_{\vec x\to \vec v}f(\vec x) = \vec w$, if and only if for all sequences $(\vec a_n)$ in $A \setminus \{\vec v\}$ that converge to $\vec v$ we have that the sequence $(f(\vec a_n))$ converges to $\vec w$.**
-```
+> [!important] 
+> **Conclude: $\lim_{\vec x\to \vec v}f(\vec x) = \vec w$, if and only if for all sequences $(\vec a_n)$ in $A \setminus \{\vec v\}$ that converge to $\vec v$ we have that the sequence $(f(\vec a_n))$ converges to $\vec w$.**
 

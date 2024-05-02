@@ -14,9 +14,8 @@ You can think of ROM as a table: you can have $n$ input bits, and thus $2^n$ dif
 
 In addition, a ROM can have as many "output" bits as you want, and each input combination determines what the output bits are set to. Thus, the size of the ROM can be calculated as follows:
 
-```ad-example
+> [!example] 
 If you have $n$ input bits and $y$ output bits, that means that there are $2^n$ possible "output states", and each output state has $y$ bits that it needs to set. Therefore, the size of a ROM in this configuration is $y \cdot 2^n$ bits
-```
 
 There are two primary types of ROMs.
 
