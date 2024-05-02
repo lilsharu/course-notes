@@ -24,4 +24,4 @@ $s_i$ **very weakly dominates** $s'_i$ if $\forall s_{-i} \in S_{-i}$, $u_i(s_i,
 
 * If one strategy dominates all other strategies, we say it is **dominant**.
 * A strategy profile consisting of dominant strategies for every player must be Nash equilibrium
-	* Note: An equilibrium in *strictly dominant* strategies must be unique.
+	* An equilibrium in *strictly dominant* strategies must be unique.
