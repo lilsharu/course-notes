@@ -6,7 +6,7 @@ Relevant Courses: [[Game Theory]]
 
 ## Domination
 
-Let $s_i$ and $s'_i$ be two strategies for player $i$, and let $S_{-i}$ be the set of all possible strategy profiles for the other players.
+Let $s_i$ and $s'_i$ be two [[Strategy|strategies]] for player $i$, and let $S_{-i}$ be the set of all possible strategy profiles for the other players.
 
 > [!summary] Definition: Strict Domination
 > 
