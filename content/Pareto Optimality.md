@@ -4,6 +4,8 @@ tags:
 ---
 Relevant Courses: [[Game Theory]]
 
+Often, payoffs between players are not relatively measurable: for example, the payoff for Player A might be in lives taken, while for Player B it could be in money stolen from the bank. There isn't any strict "value" you can put to a life in terms of money stolen from the bank. So these two payoffs are like "currencies" that don't have a conversion rate. With these differences in payoff units, how do we determine what is "universally" best? Well, we can't determine what's universally best, but we can come up with a list of options that could be universally best, depending on how much each player's interests are valued. These outcomes are called **Pareto optimal**. 
+
 ## Pareto Domination
 
 Let $o$ and $o'$ be arbitrary outcomes of a game. We say that $o$ **Pareto-dominates** $o'$ if outcomes $o$ is at least as "good" for every agent as $o'$, AND there is at least one agent who strictly prefers $o$ to $o'$.
