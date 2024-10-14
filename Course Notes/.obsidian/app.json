@@ -1,5 +1,6 @@
 {
   "newLinkFormat": "shortest",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "vimMode": true
 }
